@@ -1,7 +1,8 @@
 import "./App.css";
+import UseState from "./component/Hooks/UseState/UseState";
 // import Form from "./component/FormHandling/Form";
-import Pure from "./component/PureComponent/PureComponent";
-import UseReducerHook from "./component/UseReducer/UseReducerHook";
+// import Pure from "./component/PureComponent/PureComponent";
+// import UseReducerHook from "./component/UseReducer/UseReducerHook";
 // import Condition from "./component/ConditionalRendering/Condition";
 // import ToggleButton from "./component/ConditionalRendering/ToggleButton";
 // import ParentComp from "./component/DataPasing/PassDataChildtoParent/ParentComp";
@@ -18,7 +19,8 @@ function App() {
         {/* <ToggleButton/> */}
         {/* <Form/> */}
         {/* <Pure/> */}
-        <UseReducerHook/>
+        {/* <UseReducerHook/> */}
+        <UseState/>
       </center>
     </div>
   );
