@@ -1,5 +1,6 @@
 import "./App.css";
-import UseState from "./component/Hooks/UseState/UseState";
+import UseContextHook from "./component/Hooks/UseContext/UseContextHook";
+// import UseState from "./component/Hooks/UseState/UseState";
 // import Form from "./component/FormHandling/Form";
 // import Pure from "./component/PureComponent/PureComponent";
 // import UseReducerHook from "./component/UseReducer/UseReducerHook";
@@ -20,7 +21,8 @@ function App() {
         {/* <Form/> */}
         {/* <Pure/> */}
         {/* <UseReducerHook/> */}
-        <UseState/>
+        {/* <UseState/> */}
+        <UseContextHook/>
       </center>
     </div>
   );
