@@ -1,14 +1,17 @@
 import "./App.css";
-import UseContextHook from "./component/Hooks/UseContext/UseContextHook";
+// import UseRef from "./component/Hooks/UseRef/UseRef";
+// import UseContextHook from "./component/Hooks/UseContext/UseContextHook";
+// import UseEffect from "./component/Hooks/UseEffect/UseEffect";
 // import UseState from "./component/Hooks/UseState/UseState";
 // import Form from "./component/FormHandling/Form";
 // import Pure from "./component/PureComponent/PureComponent";
-// import UseReducerHook from "./component/UseReducer/UseReducerHook";
+// import UseReducerHook from "./component/Hooks/UseReducer/UseReducerHook";
 // import Condition from "./component/ConditionalRendering/Condition";
 // import ToggleButton from "./component/ConditionalRendering/ToggleButton";
 // import ParentComp from "./component/DataPasing/PassDataChildtoParent/ParentComp";
 // import Parent from "./component/DataPasing/passDataParenttoChild/Parent";
 // import Counter from "./component/counter/Counter"
+
 function App() {
   return (
     <div>
@@ -20,9 +23,11 @@ function App() {
         {/* <ToggleButton/> */}
         {/* <Form/> */}
         {/* <Pure/> */}
-        {/* <UseReducerHook/> */}
+       {/* <UseReducerHook/> */}
         {/* <UseState/> */}
-        <UseContextHook/>
+        {/* <UseContextHook/> */}
+        {/* <UseEffect/> */}
+        {/* <UseRef/> */}
       </center>
     </div>
   );
