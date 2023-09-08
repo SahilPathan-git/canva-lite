@@ -1,4 +1,6 @@
 import "./App.css";
+import UseCallback from "./component/Hooks/UseCallBack/UseCallback";
+// import UseMemo from "./component/Hooks/UseMemo/UseMemo";
 // import UseRef from "./component/Hooks/UseRef/UseRef";
 // import UseContextHook from "./component/Hooks/UseContext/UseContextHook";
 // import UseEffect from "./component/Hooks/UseEffect/UseEffect";
@@ -13,6 +15,9 @@ import "./App.css";
 // import Counter from "./component/counter/Counter"
 
 function App() {
+
+
+  
   return (
     <div>
       <center>
@@ -23,11 +28,13 @@ function App() {
         {/* <ToggleButton/> */}
         {/* <Form/> */}
         {/* <Pure/> */}
-       {/* <UseReducerHook/> */}
+        {/* <UseReducerHook/> */}
         {/* <UseState/> */}
         {/* <UseContextHook/> */}
         {/* <UseEffect/> */}
         {/* <UseRef/> */}
+        {/* <UseMemo limit={20}/>    */}
+        <UseCallback/>
       </center>
     </div>
   );
