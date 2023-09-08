@@ -6,6 +6,9 @@ const List = ({getItems}) => {
     useEffect(()=>{
         setshow(getItems)
         console.log("I am render");
+        console.log("I from use Effect");
+        
+        
         
     }, [getItems])
   return <div>

@@ -21,7 +21,8 @@ console.log(b);
   return <div>UseEffect
 
     <div>
-        {windowWidth}
+      <h3>Window Width is :  {windowWidth}</h3>
+       
     </div>
   </div>;
 };
