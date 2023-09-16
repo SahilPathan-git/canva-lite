@@ -1,5 +1,7 @@
 import "./App.css";
-import UseCallback from "./component/Hooks/UseCallBack/UseCallback";
+import LocalStorage from "./component/HtmlStorage/LocalStorage";
+// import UseCallback from "./component/Hooks/UseCallBack/UseCallback";
+// import Toggle from "./component/Toggle/Toggle";
 // import UseMemo from "./component/Hooks/UseMemo/UseMemo";
 // import UseRef from "./component/Hooks/UseRef/UseRef";
 // import UseContextHook from "./component/Hooks/UseContext/UseContextHook";
@@ -34,7 +36,9 @@ function App() {
         {/* <UseEffect/> */}
         {/* <UseRef/> */}
         {/* <UseMemo limit={20}/>    */}
-        <UseCallback/>
+        {/* <UseCallback/> */}
+        {/* <Toggle/> */}
+        <LocalStorage/>
       </center>
     </div>
   );
