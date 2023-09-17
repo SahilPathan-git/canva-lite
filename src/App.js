@@ -1,5 +1,7 @@
 import "./App.css";
-import LocalStorage from "./component/HtmlStorage/LocalStorage";
+// import LoginComponent from "./component/HtmlStorage/SessionStorage/LoginComponent";
+import Main from "./component/HtmlStorage/SessionStorage/Main";
+// import LocalStorage from "./component/HtmlStorage/LocalStorage";
 // import UseCallback from "./component/Hooks/UseCallBack/UseCallback";
 // import Toggle from "./component/Toggle/Toggle";
 // import UseMemo from "./component/Hooks/UseMemo/UseMemo";
@@ -38,7 +40,9 @@ function App() {
         {/* <UseMemo limit={20}/>    */}
         {/* <UseCallback/> */}
         {/* <Toggle/> */}
-        <LocalStorage/>
+        {/* <LocalStorage/> */}
+        {/* <LoginComponent /> */}
+        <Main/>
       </center>
     </div>
   );
