@@ -1,7 +1,10 @@
 import "./App.css";
+// import NewToggle from "./component/NewToggle";
+// import This from "./component/This";
 // import LoginComponent from "./component/HtmlStorage/SessionStorage/LoginComponent";
-import Main from "./component/HtmlStorage/SessionStorage/Main";
+// import Main from "./component/HtmlStorage/SessionStorage/Main";
 // import LocalStorage from "./component/HtmlStorage/LocalStorage";
+// import Call from './component/Hooks/UseCallBack/Practicecallback/Call'
 // import UseCallback from "./component/Hooks/UseCallBack/UseCallback";
 // import Toggle from "./component/Toggle/Toggle";
 // import UseMemo from "./component/Hooks/UseMemo/UseMemo";
@@ -39,10 +42,13 @@ function App() {
         {/* <UseRef/> */}
         {/* <UseMemo limit={20}/>    */}
         {/* <UseCallback/> */}
+        {/* <Call/> */}
         {/* <Toggle/> */}
         {/* <LocalStorage/> */}
         {/* <LoginComponent /> */}
-        <Main/>
+        {/* <Main/> */}
+        {/* <This/> */}
+        {/* <NewToggle/> */}
       </center>
     </div>
   );

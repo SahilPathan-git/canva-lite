@@ -14,22 +14,21 @@ const ContextUser = ({ children }) => {
     localStorage.setItem('user', JSON.stringify(data))
   };
 
-    const logOut = () => {
-        console.log("first");
-        
-        localStorage.removeItem('user')
-        setUser(null);
-    };
+  const logOut = () => {
+    console.log("first");
+
+    localStorage.removeItem('user')
+    setUser(null);
+  };
 
   return (
-      <usercontext.Provider value={{ user, login, logOut }}>
+    <usercontext.Provider value={{ user, login, logOut }}>
       {children}
     </usercontext.Provider>
   );
 };
 
 export default ContextUser;
-// export default ContextUser;
 
 
 // import React, { createContext, useContext, useState } from "react";
